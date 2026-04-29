@@ -25,7 +25,7 @@ class AssetModel {
   late int quantity;
   late int availableQty;
   late bool isActive;
-  String? imagePath; // local path
+  String? imagePath; 
   late DateTime createdAt;
 
   @Backlink(to: 'asset')
@@ -45,14 +45,13 @@ class BorrowModel {
   late String userName;
   late DateTime startDate;
   late DateTime endDate;
-  late String status; // pending | approved | rejected | returned
+  late String status;
   String? note;
   String? rejectionReason;
   String? returnProofPath;
   late DateTime createdAt;
   DateTime? updatedAt;
 
-  // Relasi One-to-Many: Borrow → User & Asset
   final user = IsarLink<UserModel>();
   final asset = IsarLink<AssetModel>();
 }
