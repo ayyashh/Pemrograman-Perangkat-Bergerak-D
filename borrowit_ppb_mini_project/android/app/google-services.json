@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "761623575839",
+    "project_id": "borrowit-ppb-miniproject",
+    "storage_bucket": "borrowit-ppb-miniproject.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:761623575839:android:59f92831b7bd503392c42a",
+        "android_client_info": {
+          "package_name": "com.example.borrowit_ppb_mini_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwa8yLAt5prDgsCXDNeh6rXQppDMdLP00"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
